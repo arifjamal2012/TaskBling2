@@ -1,11 +1,11 @@
-fetch('demo.json')
-	.then((res) => {
-		//console.log(res);
-		return res.json();
-	})
-	.then((data) => {
-		const html = data.data.map((user) => {
-			return `
+function fetchdata() {
+	fetch('demo.json')
+		.then((res) => {
+			return res.json();
+		})
+		.then((data) => {
+			const html = data.data.map((user) => {
+				return `
       <div class='user'>
       <h3>Name: ${user.businessName}</h3>
       <h4>Business Start Date: ${user.businessStartDate}</h4>
@@ -16,7 +16,12 @@ fetch('demo.json')
       <h4>Business Id: ${user.businessId}</h4>
       </div>
       `;
-		});
+			});
 
-		document.querySelector('#app').insertAdjacentHTML('afterbegin', html);
-	});
+			document.querySelector('#app').insertAdjacentHTML('afterbegin', html);
+		})
+		.catch((error) => {
+			console.log(error);
+		});
+}
+fetchdata();
