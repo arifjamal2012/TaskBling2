@@ -1,0 +1,59 @@
+{
+	"status": 200,
+	"data": [
+		{
+			"businessName": "Ridge Ryder",
+			"businessStartDate": "2021-01-17T00:00:00.000+0000",
+			"status": "Ongoing",
+			"pricePlan": 50.0,
+			"blingPhoneNumber": "13239864926",
+			"managerName": "Martin",
+			"businessId": 108
+		},
+		{
+			"businessName": "Waise Research Institute",
+			"businessStartDate": "2021-01-14T00:00:00.000+0000",
+			"status": "Ongoing",
+			"pricePlan": 50.0,
+			"blingPhoneNumber": "17868291452",
+			"managerName": "Karim",
+			"businessId": 901
+		},
+		{
+			"businessName": "Phlebotomy Outbound Calls",
+			"businessStartDate": "2020-11-23T00:00:00.000+0000",
+			"status": "Ongoing",
+			"pricePlan": 50.0,
+			"blingPhoneNumber": "14438792045",
+			"managerName": "Martin",
+			"businessId": 1020
+		},
+		{
+			"businessName": "Xcommerce",
+			"businessStartDate": "2020-12-15T00:00:00.000+0000",
+			"status": "Ongoing",
+			"pricePlan": 50.0,
+			"blingPhoneNumber": "13478020848",
+			"managerName": "Karim",
+			"businessId": 1031
+		},
+		{
+			"businessName": "McDaniel Outbound Calls",
+			"businessStartDate": "2020-12-06T00:00:00.000+0000",
+			"status": "Ongoing",
+			"pricePlan": 50.0,
+			"blingPhoneNumber": "15122290115",
+			"managerName": "Karim",
+			"businessId": 1030
+		},
+		{
+			"businessName": "Growth Genius",
+			"businessStartDate": "2020-11-18T00:00:00.000+0000",
+			"status": "Ongoing",
+			"pricePlan": 50.0,
+			"blingPhoneNumber": "13472748605",
+			"managerName": "Karim",
+			"businessId": 109
+		}
+	]
+}
