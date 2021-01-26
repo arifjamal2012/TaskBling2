@@ -43,7 +43,7 @@ header {
 }
 
 .nav__links li a:hover {
-	color: #0088a9;
+	color: #13505f;
 }
 
 button {
@@ -75,6 +75,11 @@ button:hover {
 	padding: 1px;
 	align-items: center;
 	margin-left: 30px;
+	box-shadow: tomato;
+}
+.user:hover {
+	color: rgb(42, 142, 189);
+	cursor: pointer;
 }
 
 footer {
